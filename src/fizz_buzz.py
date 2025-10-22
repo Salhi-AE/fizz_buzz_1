@@ -4,4 +4,6 @@ def fizz__buzz(num:int) -> str | int:
         return "fizz"
     if num % 5 == 0:
         return "buzz"
+    if num % 3 and num % 5 == 0:
+        return "fizzbuzz"
     return num
