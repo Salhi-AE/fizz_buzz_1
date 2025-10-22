@@ -1,2 +1,2 @@
 def fizz__buzz():
-    pass
+    return "fizz"
